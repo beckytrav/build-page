@@ -5,6 +5,7 @@
   }
   p {
     display: block;
+    text-align: inherit;
   }
   .normal {
     width: 100%;
