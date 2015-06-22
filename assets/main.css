@@ -67,3 +67,11 @@ header {
 	font-size: 40px;
 	font-family: 'Gill Sans MT', 'Gill Sans', Calibri, sans-serif;
 }
+img {
+	padding: 10px;
+}
+figcaption {
+	text-transform: uppercase;
+	font-size: 12px;
+	color: olivedrab;
+}
