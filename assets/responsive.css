@@ -7,7 +7,7 @@
     width: 100%;
   }
 
-  .first p {
+  .first p, .name {
     display: inline-block;
   }
 
@@ -15,7 +15,6 @@
     width: 42.5%;
     float: left;
     margin-right: 10px;
-
   }
 
   .article, .article .test, .article {
