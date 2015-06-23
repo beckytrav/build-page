@@ -11,8 +11,24 @@
   .first {
     width: 100%;
   }
+
   .first p {
     display: inline-block;
+  }
+
+  figure .article {
+    margin: 10px;
+  }
+
+  figure .test {
+    overflow: hidden;
+    _overflow: visible;
+    zoom:1;
+  }
+
+  figure img {
+    float: left;
+    margin-right: 10px;
   }
 }
 
