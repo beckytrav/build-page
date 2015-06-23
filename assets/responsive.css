@@ -36,10 +36,19 @@
     width: 50%;
     display: inline-block;
     vertical-align: top;
+    position: relative;
   }
 
   p {
   	display: inline-block;
+  }
+
+  .name {
+    max-width: 100%;
+    background-color: #fff;
+    position: absolute;
+    left: 5px;
+    top: 10px;
   }
 }
 
