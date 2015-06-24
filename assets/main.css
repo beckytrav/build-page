@@ -62,12 +62,11 @@ New Styles
 
 .grid {
     margin: auto;
-    max-width: 1200px;
     width: 100%;
 }
 .row {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 	}
 
 body {
@@ -104,9 +103,9 @@ img {
 }
 
 section {
-	margin-top: 0px;
 	margin-left: 5px;
 	margin-right: 0px;
+	margin-bottom: 10px;
 }
 
 
