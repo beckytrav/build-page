@@ -19,10 +19,16 @@
 
   section {
     padding-right: 5px;
+    padding-top: 7px;
+    padding-left: 5px;
   }
 
   .first h3 {
     padding-left: 5px;
+  }
+
+  .article {
+  	padding-bottom: 5px;
   }
 
   .article .test .name {
@@ -51,6 +57,10 @@
 
 @media screen and (min-width: 400px) {
 
+  .article {
+    padding-bottom: 20px;
+  }
+
   .article figure {
     width: auto;
     float: none;
@@ -75,6 +85,7 @@
     padding-left: 10px;
     padding-right: 5px;
     padding-bottom: 10px;
+    padding-top: 5px;
   }
 
   .first h3 {
@@ -83,7 +94,7 @@
 
   img {
       padding-left: 0px;
-      padding-right: 15px;
+      padding-right: 5px;
   }
 
   .name {
@@ -99,21 +110,28 @@
   }
   section {
     position: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
-
 }
 
 @media screen and (min-width: 600px) {
   .article, .first {
     width: 33.33%;
-  	padding-right: 10px;
+
   }
 
   img {
     padding-left: 0px;
-    padding-right: 5px;
+    padding-right: 10px;
+  }
+  section {
+    position: inherit;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
   }
 }
 
@@ -126,13 +144,14 @@
     margin: 0 auto;
   }
   img {
-    padding-left: 10px;
-    padding-right: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   section {
     position: inherit;
     margin-left: 0px;
     margin-right: 0px;
-
+    padding-left: 10px;
+    padding-right: 5px;
   }
 }
