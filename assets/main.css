@@ -103,6 +103,7 @@ img {
 }
 
 section {
+	align-items: center;
 	margin-left: 10px;
 	margin-right: 0px;
 	margin-bottom: 5px;
