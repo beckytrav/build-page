@@ -1,3 +1,8 @@
+/*
+	==========
+	Paragraph, Headers
+	==========
+*/
 
   p {
     display: none;
@@ -10,17 +15,6 @@
 
   h3 {
     font-size: 16px;
-  }
-
-  img {
-    	padding-left: 0px;
-      padding-right: 0px;
-  }
-
-  section {
-    padding-right: 5px;
-    padding-top: 7px;
-    padding-left: 5px;
   }
 
   .first h3 {
@@ -55,7 +49,37 @@
     zoom:1;
   }
 
+  /*
+  	==========
+  	Images
+  	==========
+  */
+
+  img {
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+
+  /*
+  	==========
+  	Layout
+  	==========
+  */
+
+  section {
+    padding-right: 5px;
+    padding-top: 7px;
+    padding-left: 5px;
+  }
+
+
 @media screen and (min-width: 400px) {
+
+  /*
+  	==========
+  	Paragraph, Headers
+  	==========
+  */
 
   .article {
     padding-bottom: 20px;
@@ -92,11 +116,6 @@
     padding-left: 5px;
   }
 
-  img {
-      padding-left: 0px;
-      padding-right: 5px;
-  }
-
   .name {
     max-width: 100%;
     background-color: #fff;
@@ -108,6 +127,24 @@
   .article .test .name {
     padding-left: 10px;
   }
+
+  /*
+  	==========
+  	Images
+  	==========
+  */
+
+  img {
+      padding-left: 0px;
+      padding-right: 5px;
+  }
+
+  /*
+    ==========
+    Layout
+    ==========
+  */
+
   section {
     position: center;
     margin-left: 2px;
@@ -117,15 +154,35 @@
 }
 
 @media screen and (min-width: 600px) {
+
+  /*
+    ==========
+    Paragraph, Headers
+    ==========
+  */
+
   .article, .first {
     width: 33.33%;
 
   }
 
+  /*
+  	==========
+  	Images
+  	==========
+  */
+
   img {
     padding-left: 0px;
     padding-right: 10px;
   }
+
+  /*
+    ==========
+    Layout
+    ==========
+  */
+
   section {
     position: inherit;
     margin-left: 0px;
@@ -136,17 +193,39 @@
 }
 
 @media screen and (min-width: 1008px) {
+
+  /*
+    ==========
+    Body
+    ==========
+  */
+
   body {
     background-color: #B2B2B2;
   }
+
   .whole {
     max-width: 1008px;
     margin: 0 auto;
   }
+
+  /*
+    ==========
+    Images
+    ==========
+  */
+
   img {
     padding-left: 5px;
     padding-right: 5px;
   }
+
+  /*
+    ==========
+    Layout
+    ==========
+  */
+
   section {
     position: inherit;
     margin-left: 0px;

@@ -69,6 +69,11 @@ New Styles
     margin-bottom: 0px;
 	}
 
+/*
+	==========
+	Body, Headers
+	==========
+*/
 body {
 	width: 100%;
 	font-family: Arial, Helvetica, freesans, sans-serif;
@@ -101,19 +106,25 @@ h3 {
 	font-weight: bold;
 }
 
+/*
+	==========
+	Images
+	==========
+*/
+
 img {
 	width: 100%;
 }
 
-section {
-	width: 100%;
-	background-color: #fff;
-	padding-top: 15px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-bottom: px;
+.article, .first {
+	padding-bottom: 20px;
 }
 
+/*
+	==========
+	Images Name
+	==========
+*/
 .name {
 	color: #5e9229;
 	text-align: center;
@@ -125,6 +136,17 @@ section {
 
 }
 
-.article, .first {
-	padding-bottom: 20px;
+/*
+	==========
+	Layout
+	==========
+*/
+
+section {
+	width: 100%;
+	background-color: #fff;
+	padding-top: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: px;
 }
