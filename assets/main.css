@@ -76,7 +76,7 @@ body {
 	margin: 0 auto;
 }
 
-.site-title {
+.site_title {
 	background-color: #ffdf43;
 	width: 100%;
 	position: relative;
@@ -109,11 +109,11 @@ h3 {
 	==========
 */
 
-.sport-img {
+.media_image {
 	width: 100%;
 }
 
-.article, .first {
+.article, .article_main {
 	padding-bottom: 20px;
 }
 
@@ -122,7 +122,7 @@ h3 {
 	Images Name
 	==========
 */
-.name {
+.media_title {
 	color: #5e9229;
 	text-align: center;
 	font-size: 12px;
@@ -139,7 +139,7 @@ h3 {
 	==========
 */
 
-.main {
+.block_element {
 	background-color: #fff;
 	padding-top: 15px;
 	margin-left: 0px;
@@ -154,89 +154,89 @@ h3 {
 	==========
 */
 
-  .info {
-    display: none;
-    font-size: 16px;
-    color: #767676;
-    display: none;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .title {
-    font-size: 16px;
-  }
-
-  .first .title {
-    padding-left: 5px;
-  }
-
-  .article {
-  	padding-bottom: 5px;
-  }
-
-  .article .sport-img {
+.article_info {
 	display: none;
-  }
+	font-size: 16px;
+	color: #767676;
+	display: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
-  .article .test .name {
-    padding-left: 0px;
-  }
+.article_title {
+	font-size: 16px;
+}
 
-  .first {
-    width: 100%;
-  }
+.article_main .article_title {
+	padding-left: 5px;
+}
 
-  .first .info, .name {
-    display: inline-block;
-  }
+.article {
+	padding-bottom: 5px;
+}
 
-  .article figure {
-    width: 42.5%;
-    float: left;
-    margin-right: 10px;
-  }
+.article .media_image {
+	display: none;
+}
 
-  .article, .article .test, .article {
-    overflow: hidden;
-    _overflow: visible;
-    zoom:1;
-  }
+.article .article_body .media_title {
+	padding-left: 0px;
+}
 
-  /*
-  	==========
-  	Images
-  	==========
-  */
+.article_main {
+	width: 100%;
+}
 
-  .sport-img {
-      padding-left: 0px;
-      padding-right: 0px;
-  }
+.article_main .article_info, .media_title {
+	display: inline-block;
+}
 
-  /*
-  	==========
-  	Layout
-  	==========
-  */
+.article figure {
+	width: 42.5%;
+	float: left;
+	margin-right: 10px;
+}
 
-  .main {
-    padding-right: 5px;
-    padding-top: 7px;
-    padding-left: 5px;
-  }
+.article, .article .article_body, .article {
+	overflow: hidden;
+	_overflow: visible;
+	zoom:1;
+}
+
+/*
+	==========
+	Images
+	==========
+*/
+
+.media_image {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/*
+	==========
+	Layout
+	==========
+*/
+
+.block_element {
+	padding-right: 5px;
+	padding-top: 7px;
+	padding-left: 5px;
+}
 
 @media screen and (min-width: 255px) {
 
-	.article .sport-img {
-		display: inline-block;
-  	}
+.article .media_image {
+	display: inline-block;
+	}
 }
-	/*
-		========
-		400px screen +
-		========
-	*/
+/*
+	========
+	400px screen +
+	========
+*/
 
 @media screen and (min-width: 400px) {
 
@@ -257,19 +257,19 @@ h3 {
 
   }
 
-  .article, .first {
+  .article, .article_main {
     width: 50%;
     display: inline-block;
     vertical-align: top;
     position: relative;
   }
 
-  .info {
+  .article_info {
   	display: inline-block;
     padding-left: 10px;
   }
 
-  .title {
+  .article_title {
     font-size: 20px;
     padding-left: 10px;
     padding-right: 5px;
@@ -277,11 +277,11 @@ h3 {
     padding-top: 5px;
   }
 
-  .first .title {
+  .article_main .article_title {
     padding-left: 5px;
   }
 
-  .name {
+  .media_title {
     max-width: 100%;
     background-color: #fff;
     text-align: right;
@@ -289,7 +289,7 @@ h3 {
     top: 0px;
   }
 
-  .article .test .name {
+  .article .article_body .media_title {
     padding-left: 10px;
   }
 
@@ -299,7 +299,7 @@ h3 {
   	==========
   */
 
-  .sport-img {
+  .media_image {
       padding-left: 0px;
       padding-right: 5px;
   }
@@ -310,7 +310,7 @@ h3 {
     ==========
   */
 
-  .main {
+  .block_element {
     position: center;
     margin-left: 2px;
     padding-left: 5px;
@@ -332,7 +332,7 @@ h3 {
     ==========
   */
 
-  .article, .first {
+  .article, .article_main {
     width: 33.33%;
 
   }
@@ -343,10 +343,10 @@ h3 {
   	==========
   */
 
-.sport-img {
-    padding-left: 0px;
-    padding-right: 10px;
-  }
+	.media_image {
+	    padding-left: 0px;
+	    padding-right: 10px;
+	  }
 
   /*
     ==========
@@ -354,7 +354,7 @@ h3 {
     ==========
   */
 
-  .main {
+  .block_element {
     position: inherit;
     margin-left: 0px;
     margin-right: 0px;
@@ -377,7 +377,7 @@ h3 {
     ==========
   */
 
-  .sport-img {
+  .media_image {
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -388,7 +388,7 @@ h3 {
     ==========
   */
 
-  .main {
+  .block_element {
     position: inherit;
     margin-left: 0px;
     margin-right: 0px;
