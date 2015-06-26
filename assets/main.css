@@ -145,6 +145,7 @@ h3 {
 	margin-left: 0px;
 	margin-right: 0px;
 }
+
 /*
 	==========
 	Mobile first
@@ -172,6 +173,10 @@ h3 {
 
   .article {
   	padding-bottom: 5px;
+  }
+
+  .article .sport-img {
+	display: none;
   }
 
   .article .test .name {
@@ -221,6 +226,12 @@ h3 {
     padding-left: 5px;
   }
 
+@media screen and (min-width: 255px) {
+
+	.article .sport-img {
+		display: inline-block;
+  	}
+}
 	/*
 		========
 		400px screen +
