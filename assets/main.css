@@ -60,12 +60,7 @@ New Styles
 
 }
 
-.grid {
-    margin: auto;
-    width: 100%;
-}
 .row {
-    width: 100%;
     margin-bottom: 0px;
 	}
 
@@ -75,11 +70,10 @@ New Styles
 	==========
 */
 body {
-	width: 100%;
 	font-family: Arial, Helvetica, freesans, sans-serif;
 }
 
-header {
+.site-title {
 	background-color: #ffdf43;
 	width: 100%;
 	position: relative;
@@ -112,7 +106,7 @@ h3 {
 	==========
 */
 
-img {
+.sport-img {
 	width: 100%;
 }
 
@@ -142,11 +136,9 @@ img {
 	==========
 */
 
-section {
-	width: 100%;
+.main {
 	background-color: #fff;
 	padding-top: 15px;
 	margin-left: 0px;
 	margin-right: 0px;
-	margin-bottom: px;
 }
