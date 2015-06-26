@@ -142,3 +142,254 @@ h3 {
 	margin-left: 0px;
 	margin-right: 0px;
 }
+/*
+	==========
+	Mobile first
+	==========
+	Paragraph, Headers
+	==========
+*/
+
+  .info {
+    display: none;
+    font-size: 16px;
+    color: #767676;
+    display: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .first .title {
+    padding-left: 5px;
+  }
+
+  .article {
+  	padding-bottom: 5px;
+  }
+
+  .article .test .name {
+    padding-left: 0px;
+  }
+
+  .first {
+    width: 100%;
+  }
+
+  .first .info, .name {
+    display: inline-block;
+  }
+
+  .article figure {
+    width: 42.5%;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .article, .article .test, .article {
+    overflow: hidden;
+    _overflow: visible;
+    zoom:1;
+  }
+
+  /*
+  	==========
+  	Images
+  	==========
+  */
+
+  .sport-img {
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+
+  /*
+  	==========
+  	Layout
+  	==========
+  */
+
+  .main {
+    padding-right: 5px;
+    padding-top: 7px;
+    padding-left: 5px;
+  }
+
+	/*
+		========
+		400px screen +
+		========
+	*/
+
+@media screen and (min-width: 400px) {
+
+  /*
+  	==========
+  	Paragraph, Headers
+  	==========
+  */
+
+  .article {
+    padding-bottom: 20px;
+  }
+
+  .article figure {
+    width: auto;
+    float: none;
+    margin-right: 0;
+
+  }
+
+  .article, .first {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+
+  .info {
+  	display: inline-block;
+    padding-left: 10px;
+  }
+
+  .title {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+  }
+
+  .first .title {
+    padding-left: 5px;
+  }
+
+  .name {
+    max-width: 100%;
+    background-color: #fff;
+    text-align: right;
+    position: absolute;
+    top: 0px;
+  }
+
+  .article .test .name {
+    padding-left: 10px;
+  }
+
+  /*
+  	==========
+  	Images
+  	==========
+  */
+
+  .sport-img {
+      padding-left: 0px;
+      padding-right: 5px;
+  }
+
+  /*
+    ==========
+    Layout
+    ==========
+  */
+
+  .main {
+    position: center;
+    margin-left: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+	/*
+		=========
+		600px screen +
+		=========
+	*/
+
+@media screen and (min-width: 600px) {
+
+  /*
+    ==========
+    Paragraph, Headers
+    ==========
+  */
+
+  .article, .first {
+    width: 33.33%;
+
+  }
+
+  /*
+  	==========
+  	Images
+  	==========
+  */
+
+  .sprot-img {
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+
+  /*
+    ==========
+    Layout
+    ==========
+  */
+
+  .main {
+    position: inherit;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+}
+
+	/*
+		=========
+		1008px screen +
+		=========
+	*/
+
+@media screen and (min-width: 1008px) {
+
+  /*
+    ==========
+    Body
+    ==========
+  */
+
+  body {
+    background-color: #B2B2B2;
+    max-width: 1008px;
+    margin: 0 auto;
+  }
+  /*
+    ==========
+    Images
+    ==========
+  */
+
+  .sport-img {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  /*
+    ==========
+    Layout
+    ==========
+  */
+
+  .main {
+    position: inherit;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+}
