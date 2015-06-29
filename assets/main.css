@@ -112,8 +112,9 @@ body {
 
 .media_image {
 	width: 100%;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 6px;
+	padding-right: 4px;
+
 }
 
 .article, .article_main {
@@ -144,9 +145,8 @@ body {
 
 .article_grid {
 	background-color: #fff;
-	padding-top: 15px;
-	margin-left: 0px;
-	margin-right: 0px;
+	padding-top: 12px;
+
 }
 
 /*
@@ -162,8 +162,8 @@ body {
 	font-size: 16px;
 	color: #767676;
 	display: none;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 12px;
+	padding-right: 12px;
 }
 
 .article {
@@ -183,7 +183,7 @@ body {
 }
 
 .article_main .article_title {
-	padding-left: 5px;
+	padding-left: 6px;
 }
 
 .article_main .article_info, .media_title {
@@ -193,7 +193,7 @@ body {
 .article figure {
 	width: 42.5%;
 	float: left;
-	margin-right: 10px;
+	margin-right: 12px;
 }
 
 .article, .article_body, .article_info {
@@ -231,13 +231,13 @@ body {
   */
 
   .article {
-    padding-bottom: 20px;
+    padding-bottom: 18px;
   }
 
   .article figure {
     width: auto;
     float: none;
-    margin-right: 0;
+    margin-right: 0px;
 
   }
 
@@ -250,19 +250,19 @@ body {
 
   .article_info {
   	display: inline-block;
-    padding-left: 10px;
+    padding-left: 6px;
   }
 
   .article_title {
     font-size: 20px;
-    padding-left: 10px;
-    padding-right: 5px;
-    padding-bottom: 10px;
-    padding-top: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 12px;
+    padding-top: 6px;
   }
 
   .article_title .article_main {
-    padding-left: 5px;
+    padding-left: 4px;
   }
 
   .media_title {
@@ -274,34 +274,8 @@ body {
   }
 
   .article .article_body .media_title {
-    padding-left: 10px;
+    padding-left: 12px;
   }
-
-  /*
-  	==========
-  	Images
-  	==========
-  */
-
-  .media_image {
-      padding-left: 0px;
-      padding-right: 5px;
-  }
-
-  /*
-    ==========
-    Layout
-    ==========
-  */
-
-  .article_grid {
-    position: center;
-    margin-left: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-}
-
 	/*
 		=========
 		600px screen +
@@ -319,31 +293,6 @@ body {
   .article, .article_main {
     width: 33.33%;
 
-  }
-
-  /*
-  	==========
-  	Images
-  	==========
-  */
-
-	.media_image {
-	    padding-left: 0px;
-	    padding-right: 10px;
-	  }
-
-  /*
-    ==========
-    Layout
-    ==========
-  */
-
-  .article_grid {
-    position: inherit;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 10px;
-    padding-right: 0px;
   }
 }
 
@@ -363,20 +312,6 @@ body {
 
   .media_image {
     padding-left: 5px;
-    padding-right: 5px;
-  }
-
-  /*
-    ==========
-    Layout
-    ==========
-  */
-
-  .article_grid {
-    position: inherit;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 10px;
     padding-right: 5px;
   }
 }
