@@ -1,4 +1,4 @@
-.article_title {
+.article__title {
 	color: $black;
 	height: auto;
 	line-height: $size-20;
@@ -6,13 +6,12 @@
     font-size: $size-16;
 }
 
-.article,
-.article_main {
+.article {
     padding-bottom: $size-16;
 }
 // layout //
 
-.article_grid {
+.article--grid {
 	background-color: #fff;
 	padding-top: $size-12;
     padding-left: $size-8;
@@ -23,7 +22,7 @@
 // Mobile First //
 // Paragraphs and Headers //
 
-.article_info {
+.article__blurb {
 	display: none;
 	font-size: $size-16;
 	color: $text-grey;
@@ -31,25 +30,23 @@
 }
 
 .article {
-    figure {
+    .media {
         width: 42.5%;
         float: left;
-        margin-right: $size-12;
+        margin-right: $size-4;
     }
 }
 
 .article,
-.article_body,
-.article_info {
+.article__body,
+.article__blurb {
     overflow: hidden;
     _overflow: visible;
     zoom:1;
 }
 
-.article_main {
-    width: 100%;
-
-    .article_info {
+.article--first {
+    .article__blurb {
         display: inline-block;
     }
 }
@@ -61,15 +58,14 @@
     // Paragraph, Headers //
 
     .article {
-        figure {
+        .media {
             width: auto;
             float: none;
             margin-right: $size-0;
         }
     }
 
-    .article,
-    .article_main {
+    .article {
         width: 50%;
         display: inline-block;
         vertical-align: top;
@@ -78,19 +74,19 @@
         padding-right: $size-6;
     }
 
-    .article_info {
+    .article__blurb {
         display: inline-block;
         padding-left: $size-6;
      }
 
-    .article_title {
+    .article__title {
         font-size: $size-20;
         padding-left: $size-6;
         padding-right: $size-6;
         padding-bottom: $size-12;
         padding-top: $size-6;
 
-        .article_main {
+        .article--first {
             padding-left: $size-6;
         }
     }
@@ -103,7 +99,7 @@
     //Paragraph, Headers //
 
     .article,
-    .article_main {
+    .article-first {
         width: 33.33%;
     }
 }
