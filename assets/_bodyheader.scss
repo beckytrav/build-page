@@ -1,8 +1,14 @@
 body {
     font-family: Arial, Helvetica, freesans, sans-serif;
 	background-color: $grey;
-	max-width: 1008px;
-	margin: 0 auto;
+
+}
+
+.wrap {
+    max-width: 1008px;
+    margin: 0 auto;
+    padding-left: $size-12;
+    padding-right: $size-12;
 }
 
 .site_title {
@@ -10,7 +16,6 @@ body {
 	width: 100%;
 	position: relative;
 	padding-top: $size-12;
-	padding-left: $size-12;
 	padding-bottom: $size-0;
 	margin-bottom: $size-0;
 	text-transform: uppercase;

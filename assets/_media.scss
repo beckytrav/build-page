@@ -25,7 +25,7 @@
 }
 
 .media_title {
-    padding-left: $size-12;
+    padding-left: $size-0;
     display: inline-block;
 }
 
@@ -46,11 +46,8 @@
     .article {
         padding-bottom: $size-16;
 
-        .article_body {
-            .media_title {
-                padding-left: $size-12;
-            }
-        }
+
+    }
 
     .media_title {
         max-width: 100%;
@@ -58,7 +55,7 @@
         text-align: right;
         position: absolute;
         top: $size-0;
-        }
+        padding-left: $size-8;
     }
 }
 
