@@ -1,8 +1,7 @@
 
 .media_image {
     width: 100%;
-    padding-left: $size-6;
-	padding-right: $size-4;
+
 }
 
 .media_title {
@@ -55,7 +54,10 @@
         text-align: right;
         position: absolute;
         top: $size-0;
-        padding-left: $size-8;
+        padding-left: $size-4;
+        padding-right: $size-4;
+        padding-top: $size-4;
+        padding-bottom: $size-4;
     }
 }
 

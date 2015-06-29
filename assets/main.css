@@ -123,7 +123,9 @@ body {
     width: 50%;
     display: inline-block;
     vertical-align: top;
-    position: relative; }
+    position: relative;
+    padding-left: 6px;
+    padding-right: 6px; }
 
   .article_info {
     display: inline-block;
@@ -142,9 +144,7 @@ body {
   .article_main {
     width: 33.33%; } }
 .media_image {
-  width: 100%;
-  padding-left: 6px;
-  padding-right: 4px; }
+  width: 100%; }
 
 .media_title {
   color: #5e9229;
@@ -177,7 +177,10 @@ body {
     text-align: right;
     position: absolute;
     top: 0px;
-    padding-left: 8px; } }
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px; } }
 @media screen and (min-width: 1008px) {
   .media_image {
     padding-left: 6px;
