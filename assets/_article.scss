@@ -1,0 +1,115 @@
+.article_title {
+	color: $black;
+	height: auto;
+	line-height: $size-20;
+	font-weight: bold;
+    font-size: $size-16;
+}
+
+.article,
+.article_main {
+    padding-bottom: $size-20;
+}
+// layout //
+
+.article_grid {
+	background-color: #fff;
+	padding-top: $size-12;
+}
+
+
+// Mobile First //
+// Paragraphs and Headers //
+
+.article_info {
+	display: none;
+	font-size: $size-16;
+	color: $text-grey;
+	display: none;
+	padding-left: $size-12;
+	padding-right: $size-12;
+}
+
+.article {
+    padding-bottom: $size-6;
+
+    figure {
+        width: 42.5%;
+        float: left;
+        margin-right: $size-12;
+    }
+}
+
+.article,
+.article_body,
+.article_info {
+    overflow: hidden;
+    _overflow: visible;
+    zoom:1;
+}
+
+.article_main {
+    width: 100%;
+
+    .article_title {
+        padding-left: $size-12;
+    }
+
+    .article_info {
+        display: inline-block;
+    }
+}
+
+// 400px screen //
+
+@media screen and (min-width: 400px) {
+
+    // Paragraph, Headers //
+
+    .article {
+        padding-bottom: $size-16;
+
+        figure {
+            width: auto;
+            float: none;
+            margin-right: $size-0;
+        }
+    }
+
+    .article,
+    .article_main {
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+    }
+
+    .article_info {
+        display: inline-block;
+        padding-left: $size-6;
+     }
+
+    .article_title {
+        font-size: $size-20;
+        padding-left: $size-12;
+        padding-right: $size-6;
+        padding-bottom: $size-12;
+        padding-top: $size-6;
+
+        .article_main {
+            padding-left: $size-6;
+        }
+    }
+}
+
+// 600px screen + //
+
+@media screen and (min-width: 600px) {
+
+    //Paragraph, Headers //
+
+    .article,
+    .article_main {
+        width: 33.33%;
+    }
+}

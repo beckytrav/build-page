@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, freesans, sans-serif;
+	background-color: $grey;
+	max-width: 1008px;
+	margin: 0 auto;
+}
+
+.site_title {
+	background-color: $yellow;
+	width: 100%;
+	position: relative;
+	padding-top: $size-12;
+	padding-left: $size-12;
+	padding-bottom: $size-0;
+	margin-bottom: $size-0;
+	text-transform: uppercase;
+	outline-style: none;
+
+    h1 {
+    	color: #000;
+    	font-size: 40px;
+    	font-family: 'Gill Sans MT', 'Gill Sans', Calibri, sans-serif;
+    	padding-left: $size-6;
+    	padding-bottom: $size-8;
+    }
+}

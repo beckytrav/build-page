@@ -1,3 +1,4 @@
+/* New Styles */
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -45,16 +46,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* New Styles */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box; }
-
-.row {
-  margin-bottom: 0px; }
-
 body {
   font-family: Arial, Helvetica, freesans, sans-serif;
   background-color: #B2B2B2;
@@ -85,23 +76,9 @@ body {
   font-weight: bold;
   font-size: 16px; }
 
-.media_image {
-  width: 100%;
-  padding-left: 6px;
-  padding-right: 4px; }
-
 .article,
 .article_main {
   padding-bottom: 20px; }
-
-.media_title {
-  color: #5e9229;
-  text-align: center;
-  font-size: 12px;
-  font-weight: normal;
-  display: block;
-  text-transform: uppercase;
-  padding-left: 6px; }
 
 .article_grid {
   background-color: #fff;
@@ -117,15 +94,10 @@ body {
 
 .article {
   padding-bottom: 6px; }
-  .article .media_image {
-    display: none; }
   .article figure {
     width: 42.5%;
     float: left;
     margin-right: 12px; }
-
-.article_body .media_title {
-  padding-left: 0px; }
 
 .article,
 .article_body,
@@ -141,13 +113,6 @@ body {
   .article_main .article_info {
     display: inline-block; }
 
-.media_title {
-  padding-left: 12px;
-  display: inline-block; }
-
-@media screen and (min-width: 255px) {
-  .article .media_image {
-    display: inline-block; } }
 @media screen and (min-width: 400px) {
   .article {
     padding-bottom: 16px; }
@@ -155,8 +120,6 @@ body {
       width: auto;
       float: none;
       margin-right: 0px; }
-    .article .article_body .media_title {
-      padding-left: 12px; }
 
   .article,
   .article_main {
@@ -171,26 +134,64 @@ body {
 
   .article_title {
     font-size: 20px;
-    padding-left: 6px;
+    padding-left: 12px;
     padding-right: 6px;
     padding-bottom: 12px;
     padding-top: 6px; }
     .article_title .article_main {
-      padding-left: 6px; }
-
-  .media_title {
-    max-width: 100%;
-    background-color: #fff;
-    text-align: right;
-    position: absolute;
-    top: 0px; } }
+      padding-left: 6px; } }
 @media screen and (min-width: 600px) {
   .article,
   .article_main {
     width: 33.33%; } }
+.media_image {
+  width: 100%;
+  padding-left: 6px;
+  padding-right: 4px; }
+
+.media_title {
+  color: #5e9229;
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+  display: block;
+  text-transform: uppercase;
+  padding-left: 6px; }
+
+.article {
+  padding-bottom: 6px; }
+  .article .media_image {
+    display: none; }
+
+.media_title {
+  padding-left: 12px;
+  display: inline-block; }
+
+@media screen and (min-width: 255px) {
+  .article .media_image {
+    display: inline-block; } }
+@media screen and (min-width: 400px) {
+  .article {
+    padding-bottom: 16px; }
+    .article .article_body .media_title {
+      padding-left: 12px; }
+    .article .media_title {
+      max-width: 100%;
+      background-color: #fff;
+      text-align: right;
+      position: absolute;
+      top: 0px; } }
 @media screen and (min-width: 1008px) {
   .media_image {
     padding-left: 6px;
     padding-right: 6px; } }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.row {
+  margin-bottom: 0px; }
 
 /*# sourceMappingURL=main.css.map */
