@@ -80,11 +80,10 @@ body {
   font-size: 16px; }
 
 .article__link {
-  text-decoration: none; }
-
-.article__link :hover {
-  text-decoration-color: #1c1c1c;
-  text-decoration: underline; }
+  text-decoration: none;
+  color: #1c1c1c; }
+  .article__link:hover {
+    text-decoration: underline; }
 
 .article {
   padding-bottom: 16px; }

@@ -8,11 +8,9 @@
 
 .article__link {
     text-decoration: none;
-}
+    color: $black;
 
-.article__link {
-    :hover {
-        text-decoration-color: $black;
+    &:hover {
         text-decoration: underline;
     }
 }
