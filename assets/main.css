@@ -83,6 +83,7 @@ body {
   text-decoration: none; }
 
 .article__link :hover {
+  text-decoration-color: #1c1c1c;
   text-decoration: underline; }
 
 .article {

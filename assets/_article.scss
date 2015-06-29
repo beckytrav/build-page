@@ -12,6 +12,7 @@
 
 .article__link {
     :hover {
+        text-decoration-color: $black;
         text-decoration: underline;
     }
 }
