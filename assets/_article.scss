@@ -6,14 +6,21 @@
     font-size: $size-16;
 }
 
-
 .article__link {
     text-decoration: none;
 }
 
+.article__link {
+    :hover {
+        text-decoration: underline;
+    }
+}
+
+
 .article {
     padding-bottom: $size-16;
 }
+
 // layout //
 
 .article--grid {

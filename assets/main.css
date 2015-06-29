@@ -82,6 +82,9 @@ body {
 .article__link {
   text-decoration: none; }
 
+.article__link :hover {
+  text-decoration: underline; }
+
 .article {
   padding-bottom: 16px; }
 
