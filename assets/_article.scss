@@ -2,9 +2,13 @@
 
 .article--grid {
 	background-color: #fff;
-	padding-top: $size-12;
+	padding-top: $size-8;
     padding-left: $size-8;
     padding-right: $size-8;
+
+	@include mq($from:small) {
+		padding-top: $size-12;
+	}
 }
 
 // Paragraphs and Headers //
