@@ -97,12 +97,12 @@ body {
   @media (min-width: 25em) {
     .article__title {
       font-size: 20px;
-      padding-left: 6px;
+      padding-left: 0px;
       padding-right: 6px;
       padding-bottom: 12px;
       padding-top: 6px; }
       .article__title .article--first {
-        padding-left: 6px; } }
+        padding-left: 0px; } }
 
 .article__link {
   text-decoration: none;
@@ -138,8 +138,7 @@ body {
   zoom: 1; }
   @media (min-width: 25em) {
     .article__blurb {
-      display: inline-block;
-      padding-left: 6px; } }
+      display: inline-block; } }
 
 .article .media {
   width: 42.5%;
@@ -178,8 +177,7 @@ body {
   font-size: 12px;
   font-weight: normal;
   display: inline-block;
-  text-transform: uppercase;
-  padding-left: 6px; }
+  text-transform: uppercase; }
   @media (min-width: 37.5em) {
     .media__caption {
       max-width: 100%;

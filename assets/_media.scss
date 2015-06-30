@@ -15,7 +15,6 @@
 	font-weight: normal;
 	display: inline-block;
 	text-transform: uppercase;
-	padding-left: $size-6;
 
     @include mq($from:medium) {
         max-width: 100%;
