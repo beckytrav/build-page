@@ -13,13 +13,16 @@ $size-8: 8px;
 $size-12: 12px;
 $size-16: 16px;
 $size-20: 20px;
+
 $mq-breakpoints: (
     extra-small:  300px,
     small:  400px,
     medium: 600px,
     large:    1008px
 ) !default;
+
 // New styles //
+
 @import 'mixin';
 @import 'mq';
 @import 'reset';

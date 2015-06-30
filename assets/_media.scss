@@ -6,7 +6,6 @@
         padding-left: $size-6;
         padding-right: $size-6;
     }
-
 }
 
 .media__caption {
@@ -29,7 +28,6 @@
         padding-top: $size-4;
         padding-bottom: $size-4;
     }
-
 }
 
 .article {
@@ -37,27 +35,9 @@
 
     .media__image {
         display: none;
-    }
-}
 
-@media screen and (max-width: 400px) {
-
-    .article--first {
-        
-        .media {
-        width: 100%;
-        float: none;
+        @include mq ($from: 225px) {
+            display: inline-block;
         }
-    }
-}
-// 225px Screen //
-
-@media screen and (min-width: 255px) {
-
-    .article {
-
-        .media__image {
-    	   display: inline-block;
-       }
     }
 }

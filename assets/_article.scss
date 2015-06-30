@@ -25,10 +25,9 @@
 
 	        .article--first {
 	            padding-left: $size-6;
-	        }
-	    }
-	}
-
+        }
+    }
+}
 
 .article__link {
     text-decoration: none;
@@ -38,7 +37,6 @@
         text-decoration: underline;
     }
 }
-
 
 .article {
     padding-bottom: $size-16;
@@ -73,6 +71,7 @@
 }
 
 .article {
+
     .media {
         width: 42.5%;
         float: left;
@@ -98,6 +97,11 @@
         display: inline-block;
     }
 
+	.media {
+		width: 100%;
+		float: none;
+	}
+	
 	@include mq($from:medium) {
 		width: 33.33%;
 	}
