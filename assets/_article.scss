@@ -17,14 +17,14 @@
     font-size: $size-16;
 
 	@include mq($from:small) {
-	        font-size: $size-20;
-	        padding-left: $size-6;
-	        padding-right: $size-6;
-	        padding-bottom: $size-12;
-	        padding-top: $size-6;
+        font-size: $size-20;
+        padding-left: $size-6;
+        padding-right: $size-6;
+        padding-bottom: $size-12;
+        padding-top: $size-6;
 
-	        .article--first {
-	            padding-left: $size-6;
+        .article--first {
+            padding-left: $size-6;
         }
     }
 }
@@ -101,7 +101,7 @@
 		width: 100%;
 		float: none;
 	}
-	
+
 	@include mq($from:medium) {
 		width: 33.33%;
 	}
