@@ -2,12 +2,13 @@
 
 .article--grid {
 	background-color: #fff;
-	padding-top: $size-8;
-    padding-left: $size-8;
-    padding-right: $size-8;
+	padding-top: $size-4;
+    padding-left: $size-4;
+    padding-right: $size-4;
 
 	@include mq($from:small) {
-		padding-top: $size-12;
+		padding-top: $size-4;
+		padding-bottom: $size-4;
 	}
 }
 
@@ -16,16 +17,16 @@
 .article__title {
 	color: $black;
 	height: auto;
-	line-height: $size-20;
+	line-height: $size-16;
 	font-weight: bold;
     font-size: $size-16;
 
 	@include mq($from:small) {
-        font-size: $size-20;
+        font-size: $size-16;
         padding-left: $size-0;
-        padding-right: $size-6;
-        padding-bottom: $size-12;
-        padding-top: $size-6;
+        padding-right: $size-8;
+        padding-bottom: $size-8;
+        padding-top: $size-8;
 
         .article--first {
             padding-left: $size-0;
@@ -33,7 +34,7 @@
     }
 
 	@include mq($from:large) {
-		padding-left: $size-6;
+		padding-left: $size-8;
 	}
 }
 
@@ -47,7 +48,10 @@
 }
 
 .article {
-    padding-bottom: $size-16;
+	padding-bottom: $size-4;
+	padding-top: $size-4;
+	padding-left: $size-4;
+	padding-right: $size-4;
 	@include clearfix;
 
 	@include mq($from:small) {
@@ -55,12 +59,15 @@
 		display: inline-block;
 		vertical-align: top;
 		position: relative;
-		padding-left: $size-6;
-		padding-right: $size-6;
+		padding-left: $size-4;
+		padding-right: $size-4;
 
 		@include mq($from:medium) {
 			width: 33.33%;
-			padding-bottom: $size-16;
+			padding-bottom: $size-8;
+			padding-left: $size-8;
+			padding-right: $size-8;
+			padding-top: $size-8;
 		}
 	}
 }
@@ -77,7 +84,7 @@
      }
 
 	@include mq($from:large) {
-		padding-left: $size-6;
+		padding-left: $size-8;
 	}
 }
 
@@ -111,6 +118,11 @@
 	.media {
 		width: 100%;
 		float: none;
+
+	}
+
+	.media__image {
+		padding-right: $size-0;
 	}
 
 	@include mq($from:medium) {

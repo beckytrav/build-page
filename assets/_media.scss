@@ -1,10 +1,15 @@
 
 .media__image {
     width: 100%;
+    padding-right: $size-8;
+
+    @include mq($from:small) {
+        padding-right: $size-0;
+    }
 
     @include mq($from:large) {
-        padding-left: $size-6;
-        padding-right: $size-6;
+        padding-left: $size-8;
+        padding-right: $size-8;
     }
 }
 
@@ -21,20 +26,20 @@
         background-color: $white;
         text-align: right;
         position: absolute;
-        top: $size-0;
-        padding-left: $size-6;
-        padding-right: $size-6;
+        top: $size-8;
+        left: $size-8;
+        padding-left: $size-4;
+        padding-right: $size-4;
         padding-top: $size-4;
         padding-bottom: $size-4;
 
         @include mq($from:large) {
-            padding-left: $size-12;
+            padding-left: $size-8;
         }
     }
 }
 
 .article {
-    padding-bottom: $size-6;
 
     .media__image {
         display: none;

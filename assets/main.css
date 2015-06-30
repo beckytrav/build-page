@@ -62,15 +62,13 @@ body {
 
 .wrap {
   max-width: 1008px;
-  margin: 0 auto;
-  padding-left: 12px;
-  padding-right: 12px; }
+  margin: 0 auto; }
 
 .site--title {
   background-color: #ffdf43;
   width: 100%;
   position: relative;
-  padding-top: 12px;
+  padding-top: 8px;
   padding-bottom: 0px;
   margin-bottom: 0px;
   text-transform: uppercase;
@@ -79,36 +77,37 @@ body {
     color: #000;
     font-size: 40px;
     font-family: 'Gill Sans MT', 'Gill Sans', Calibri, sans-serif;
-    padding-left: 6px;
+    padding-left: 8px;
     padding-bottom: 8px; }
 
 .article--grid {
   background-color: #fff;
-  padding-top: 8px;
-  padding-left: 8px;
-  padding-right: 8px; }
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-right: 4px; }
   @media (min-width: 25em) {
     .article--grid {
-      padding-top: 12px; } }
+      padding-top: 4px;
+      padding-bottom: 4px; } }
 
 .article__title {
   color: #1c1c1c;
   height: auto;
-  line-height: 20px;
+  line-height: 16px;
   font-weight: bold;
   font-size: 16px; }
   @media (min-width: 25em) {
     .article__title {
-      font-size: 20px;
+      font-size: 16px;
       padding-left: 0px;
-      padding-right: 6px;
-      padding-bottom: 12px;
-      padding-top: 6px; }
+      padding-right: 8px;
+      padding-bottom: 8px;
+      padding-top: 8px; }
       .article__title .article--first {
         padding-left: 0px; } }
   @media (min-width: 63em) {
     .article__title {
-      padding-left: 6px; } }
+      padding-left: 8px; } }
 
 .article__link {
   text-decoration: none;
@@ -117,7 +116,10 @@ body {
     text-decoration: underline; }
 
 .article {
-  padding-bottom: 16px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
   overflow: hidden;
   _overflow: visible;
   zoom: 1; }
@@ -127,12 +129,15 @@ body {
       display: inline-block;
       vertical-align: top;
       position: relative;
-      padding-left: 6px;
-      padding-right: 6px; } }
+      padding-left: 4px;
+      padding-right: 4px; } }
   @media (min-width: 25em) and (min-width: 37.5em) {
     .article {
       width: 33.33%;
-      padding-bottom: 16px; } }
+      padding-bottom: 8px;
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 8px; } }
 
 .article__blurb {
   display: none;
@@ -147,7 +152,7 @@ body {
       display: inline-block; } }
   @media (min-width: 63em) {
     .article__blurb {
-      padding-left: 6px; } }
+      padding-left: 8px; } }
 
 .article .media {
   width: 42.5%;
@@ -169,16 +174,22 @@ body {
 .article--first .media {
   width: 100%;
   float: none; }
+.article--first .media__image {
+  padding-right: 0px; }
 @media (min-width: 37.5em) {
   .article--first {
     width: 33.33%; } }
 
 .media__image {
-  width: 100%; }
+  width: 100%;
+  padding-right: 8px; }
+  @media (min-width: 25em) {
+    .media__image {
+      padding-right: 0px; } }
   @media (min-width: 63em) {
     .media__image {
-      padding-left: 6px;
-      padding-right: 6px; } }
+      padding-left: 8px;
+      padding-right: 8px; } }
 
 .media__caption {
   color: #5e9229;
@@ -193,21 +204,20 @@ body {
       background-color: #fff;
       text-align: right;
       position: absolute;
-      top: 0px;
-      padding-left: 6px;
-      padding-right: 6px;
+      top: 8px;
+      left: 8px;
+      padding-left: 4px;
+      padding-right: 4px;
       padding-top: 4px;
       padding-bottom: 4px; } }
   @media (min-width: 37.5em) and (min-width: 63em) {
     .media__caption {
-      padding-left: 12px; } }
+      padding-left: 8px; } }
 
-.article {
-  padding-bottom: 6px; }
-  .article .media__image {
-    display: none; }
-    @media (min-width: 14.0625em) {
-      .article .media__image {
-        display: inline-block; } }
+.article .media__image {
+  display: none; }
+  @media (min-width: 14.0625em) {
+    .article .media__image {
+      display: inline-block; } }
 
 /*# sourceMappingURL=main.css.map */
