@@ -26,6 +26,10 @@
         padding-right: $size-6;
         padding-top: $size-4;
         padding-bottom: $size-4;
+
+        @include mq($from:large) {
+            padding-left: $size-12;
+        }
     }
 }
 

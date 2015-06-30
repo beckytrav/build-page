@@ -195,6 +195,9 @@ body {
       padding-right: 6px;
       padding-top: 4px;
       padding-bottom: 4px; } }
+  @media (min-width: 37.5em) and (min-width: 63em) {
+    .media__caption {
+      padding-left: 12px; } }
 
 .article {
   padding-bottom: 6px; }
