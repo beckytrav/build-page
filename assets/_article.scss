@@ -10,6 +10,9 @@
 		padding-top: $size-4;
 		padding-bottom: $size-4;
 	}
+	@include mq($from:medium) {
+		padding: $size-8;
+	}
 }
 
 // Paragraphs and Headers //
@@ -48,10 +51,7 @@
 }
 
 .article {
-	padding-bottom: $size-4;
-	padding-top: $size-4;
-	padding-left: $size-4;
-	padding-right: $size-4;
+	padding: $size-4;
 	@include clearfix;
 
 	@include mq($from:small) {
@@ -64,10 +64,7 @@
 
 		@include mq($from:medium) {
 			width: 33.33%;
-			padding-bottom: $size-8;
-			padding-left: $size-8;
-			padding-right: $size-8;
-			padding-top: $size-8;
+			padding: $size-8;
 		}
 	}
 }
@@ -118,7 +115,6 @@
 	.media {
 		width: 100%;
 		float: none;
-
 	}
 
 	.media__image {

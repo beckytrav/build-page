@@ -28,10 +28,7 @@
         position: absolute;
         top: $size-8;
         left: $size-8;
-        padding-left: $size-4;
-        padding-right: $size-4;
-        padding-top: $size-4;
-        padding-bottom: $size-4;
+        padding: $size-4;
 
         @include mq($from:large) {
             padding-left: $size-8;

@@ -89,6 +89,9 @@ body {
     .article--grid {
       padding-top: 4px;
       padding-bottom: 4px; } }
+  @media (min-width: 37.5em) {
+    .article--grid {
+      padding: 8px; } }
 
 .article__title {
   color: #1c1c1c;
@@ -116,10 +119,7 @@ body {
     text-decoration: underline; }
 
 .article {
-  padding-bottom: 4px;
-  padding-top: 4px;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding: 4px;
   overflow: hidden;
   _overflow: visible;
   zoom: 1; }
@@ -134,10 +134,7 @@ body {
   @media (min-width: 25em) and (min-width: 37.5em) {
     .article {
       width: 33.33%;
-      padding-bottom: 8px;
-      padding-left: 8px;
-      padding-right: 8px;
-      padding-top: 8px; } }
+      padding: 8px; } }
 
 .article__blurb {
   display: none;
@@ -206,10 +203,7 @@ body {
       position: absolute;
       top: 8px;
       left: 8px;
-      padding-left: 4px;
-      padding-right: 4px;
-      padding-top: 4px;
-      padding-bottom: 4px; } }
+      padding: 4px; } }
   @media (min-width: 37.5em) and (min-width: 63em) {
     .media__caption {
       padding-left: 8px; } }
