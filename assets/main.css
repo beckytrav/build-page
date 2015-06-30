@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* New Styles */
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -72,12 +73,27 @@ body {
     padding-left: 6px;
     padding-bottom: 8px; }
 
+.article--grid {
+  background-color: #fff;
+  padding-top: 12px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
 .article__title {
   color: #1c1c1c;
   height: auto;
   line-height: 20px;
   font-weight: bold;
   font-size: 16px; }
+  @media (min-width: 25em) {
+    .article__title {
+      font-size: 20px;
+      padding-left: 6px;
+      padding-right: 6px;
+      padding-bottom: 12px;
+      padding-top: 6px; }
+      .article__title .article--first {
+        padding-left: 6px; } }
 
 .article__link {
   text-decoration: none;
@@ -86,85 +102,88 @@ body {
     text-decoration: underline; }
 
 .article {
-  padding-bottom: 16px; }
-
-.article--grid {
-  background-color: #fff;
-  padding-top: 12px;
-  padding-left: 8px;
-  padding-right: 8px; }
+  padding-bottom: 16px;
+  overflow: hidden;
+  _overflow: visible;
+  zoom: 1; }
+  @media (min-width: 25em) {
+    .article {
+      width: 50%;
+      display: inline-block;
+      vertical-align: top;
+      position: relative;
+      padding-left: 6px;
+      padding-right: 6px; } }
+  @media (min-width: 25em) and (min-width: 37.5em) {
+    .article {
+      width: 33.33%;
+      padding-bottom: 16px; } }
 
 .article__blurb {
   display: none;
   font-size: 16px;
   color: #767676;
-  display: none; }
+  display: none;
+  overflow: hidden;
+  _overflow: visible;
+  zoom: 1; }
+  @media (min-width: 25em) {
+    .article__blurb {
+      display: inline-block;
+      padding-left: 6px; } }
 
 .article .media {
   width: 42.5%;
   float: left;
   margin-right: 4px; }
+  @media (min-width: 25em) {
+    .article .media {
+      width: auto;
+      float: none;
+      margin-right: 0px; } }
 
-.article,
-.article__body,
-.article__blurb {
+.article__body {
   overflow: hidden;
   _overflow: visible;
   zoom: 1; }
 
 .article--first .article__blurb {
   display: inline-block; }
-
-@media screen and (min-width: 400px) {
-  .article .media {
-    width: auto;
-    float: none;
-    margin-right: 0px; }
-
-  .article {
-    width: 50%;
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    padding-left: 6px;
-    padding-right: 6px; }
-
-  .article__blurb {
-    display: inline-block;
-    padding-left: 6px; }
-
-  .article__title {
-    font-size: 20px;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-bottom: 12px;
-    padding-top: 6px; }
-    .article__title .article--first {
-      padding-left: 6px; } }
-@media screen and (min-width: 600px) {
-  .article,
-  .article-first {
+@media (min-width: 37.5em) {
+  .article--first {
     width: 33.33%; } }
+
 .media__image {
   width: 100%; }
+  @media (min-width: 63em) {
+    .media__image {
+      padding-left: 6px;
+      padding-right: 6px; } }
 
 .media__caption {
   color: #5e9229;
   text-align: center;
   font-size: 12px;
   font-weight: normal;
-  display: block;
+  display: inline-block;
   text-transform: uppercase;
   padding-left: 6px; }
+  @media (min-width: 37.5em) {
+    .media__caption {
+      max-width: 100%;
+      background-color: #fff;
+      text-align: right;
+      position: absolute;
+      top: 0px;
+      padding-left: 6px;
+      padding-right: 6px;
+      padding-top: 4px;
+      padding-bottom: 4px; } }
 
 .article {
   padding-bottom: 6px; }
   .article .media__image {
     display: none; }
-
-.media__caption {
-  padding-left: 0px;
-  display: inline-block; }
 
 @media screen and (max-width: 400px) {
   .article--first .media {
@@ -173,24 +192,6 @@ body {
 @media screen and (min-width: 255px) {
   .article .media__image {
     display: inline-block; } }
-@media screen and (min-width: 400px) {
-  .article {
-    padding-bottom: 16px; }
-
-  .media__caption {
-    max-width: 100%;
-    background-color: #fff;
-    text-align: right;
-    position: absolute;
-    top: 0px;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px; } }
-@media screen and (min-width: 1008px) {
-  .media__image {
-    padding-left: 6px;
-    padding-right: 6px; } }
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
