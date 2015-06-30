@@ -2,14 +2,8 @@
 
 .article--grid {
 	background-color: #fff;
-	padding-top: $size-4;
-    padding-left: $size-4;
-    padding-right: $size-4;
+	padding: $size-4;
 
-	@include mq($from:small) {
-		padding-top: $size-4;
-		padding-bottom: $size-4;
-	}
 	@include mq($from:medium) {
 		padding: $size-8;
 	}

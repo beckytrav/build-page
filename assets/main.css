@@ -82,13 +82,7 @@ body {
 
 .article--grid {
   background-color: #fff;
-  padding-top: 4px;
-  padding-left: 4px;
-  padding-right: 4px; }
-  @media (min-width: 25em) {
-    .article--grid {
-      padding-top: 4px;
-      padding-bottom: 4px; } }
+  padding: 4px; }
   @media (min-width: 37.5em) {
     .article--grid {
       padding: 8px; } }
