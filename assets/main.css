@@ -64,21 +64,20 @@ body {
   max-width: 1008px;
   margin: 0 auto; }
 
-.site--title {
+.site-title {
   background-color: #ffdf43;
   width: 100%;
   position: relative;
   padding-top: 8px;
-  padding-bottom: 0px;
+  padding-bottom: 8px;
+  padding-left: 16px;
   margin-bottom: 0px;
   text-transform: uppercase;
   outline-style: none; }
-  .site--title h1 {
+  .site-title h1 {
     color: #000;
     font-size: 40px;
-    font-family: 'Gill Sans MT', 'Gill Sans', Calibri, sans-serif;
-    padding-left: 16px;
-    padding-bottom: 8px; }
+    font-family: 'Gill Sans MT', 'Gill Sans', Calibri, sans-serif; }
 
 .article--grid {
   background-color: #fff;
@@ -154,7 +153,6 @@ body {
   display: none;
   font-size: 16px;
   color: #767676;
-  display: none;
   overflow: hidden;
   _overflow: visible;
   zoom: 1; }

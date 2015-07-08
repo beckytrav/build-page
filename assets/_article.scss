@@ -91,7 +91,6 @@
 	display: none;
 	font-size: $size-16;
 	color: $text-grey;
-	display: none;
 	@include clearfix;
 
 	@include mq($from:small) {
