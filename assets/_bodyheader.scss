@@ -7,7 +7,13 @@
 }
 
 .row {
+
     margin-bottom: $size-0;
+    margin-left: -$size-8;
+
+    @include mq($from:medium) {
+        margin-left: -$size-16;
+    }
 }
 
 body {
@@ -20,21 +26,17 @@ body {
     margin: 0 auto;
 }
 
-.site--title {
+.site-title {
 	background-color: $yellow;
 	width: 100%;
-	position: relative;
 	padding-top: $size-8;
-	padding-bottom: $size-0;
-	margin-bottom: $size-0;
+    padding-bottom: $size-8;
+    padding-left: $size-16;
 	text-transform: uppercase;
-	outline-style: none;
 
     h1 {
     	color: #000;
     	font-size: 40px;
     	font-family: 'Gill Sans MT', 'Gill Sans', Calibri, sans-serif;
-    	padding-left: $size-16;
-    	padding-bottom: $size-8;
     }
 }

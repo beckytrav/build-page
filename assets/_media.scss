@@ -6,14 +6,9 @@
     @include mq($from:small) {
         padding-right: $size-0;
     }
-
-    @include mq($from:large) {
-        padding-left: $size-8;
-        padding-right: $size-8;
-    }
 }
 
-.media__caption {
+.article__caption {
 	color: $green;
 	text-align: center;
 	font-size: $size-12;
@@ -27,7 +22,7 @@
         text-align: right;
         position: absolute;
         top: $size-8;
-        left: $size-8;
+        left: $size-16;
         padding: $size-4;
 
         @include mq($from:large) {
@@ -36,8 +31,7 @@
     }
 }
 
-.article,
-.article--move {
+.article {
     .media__image {
         display: none;
 
