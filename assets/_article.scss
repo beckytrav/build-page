@@ -2,10 +2,10 @@
 
 .article--grid {
 	background-color: #fff;
-	padding: $size-4;
+	padding: $size-8;
 
 	@include mq($from:small) {
-		padding: $size-8;
+		padding: $size-16;
 	}
 }
 
@@ -45,7 +45,8 @@
 }
 
 .article {
-	padding: $size-4;
+	padding-left: $size-8;
+	padding-bottom: $size-8;
 	@include clearfix;
 
 	@include mq($from:small) {
@@ -54,35 +55,10 @@
 		vertical-align: top;
 		position: relative;
 		padding-left: $size-8;
-		padding-right: $size-4;
 
 		@include mq($from:medium) {
 			width: 33.33%;
-			padding: $size-8;
-
-			@include mq($from:large) {
-				padding-right: $size-0;
-				padding-left: $size-0;
-
-			}
-		}
-	}
-}
-
-.article--move {
-	padding-left: $size-4;
-	padding-right: $size-4;
-
-	@include mq($from:small) {
-		padding-right: $size-8;
-
-		@include mq($from:medium) {
-			padding-left: $size-8;
-
-			@include mq($from:large) {
-				padding-right: $size-0;
-				padding-left: $size-0;
-			}
+			padding-left: $size-16;
 		}
 	}
 }
@@ -102,8 +78,7 @@
 	}
 }
 
-.article,
-.article--move {
+.article {
 
     .media {
         width: 42.5%;
@@ -141,9 +116,5 @@
 
 	@include mq($from:medium) {
 		width: 33.33%;
-
-		@include mq($from:large) {
-			padding-right: $size-8;
-		}
 	}
 }

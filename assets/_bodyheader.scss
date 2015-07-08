@@ -7,7 +7,13 @@
 }
 
 .row {
+
     margin-bottom: $size-0;
+    margin-left: -8px;
+
+    @include mq($from:medium) {
+        margin-left: -16px;
+    }
 }
 
 body {
