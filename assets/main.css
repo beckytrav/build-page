@@ -207,7 +207,7 @@ body {
       padding-left: 8px;
       padding-right: 8px; } }
 
-.media__caption {
+.article__caption {
   color: #5e9229;
   text-align: center;
   font-size: 12px;
@@ -215,7 +215,7 @@ body {
   display: inline-block;
   text-transform: uppercase; }
   @media (min-width: 37.5em) {
-    .media__caption {
+    .article__caption {
       max-width: 100%;
       background-color: #fff;
       text-align: right;
@@ -224,7 +224,7 @@ body {
       left: 8px;
       padding: 4px; } }
   @media (min-width: 37.5em) and (min-width: 63em) {
-    .media__caption {
+    .article__caption {
       padding-left: 8px; } }
 
 .article .media__image,
